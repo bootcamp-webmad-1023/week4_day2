@@ -1,0 +1,14 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "Intro to Node and NPM first installation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "german alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}

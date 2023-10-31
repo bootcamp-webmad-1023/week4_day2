@@ -1,0 +1,32 @@
+<div class="container">
+    <h1>Soy los jugadores</h1>
+    <hr>
+
+    <div class="row">
+
+        {{#each players}}
+
+        <div class="col-md-4">
+
+            <div class="card mt-5 player-card">
+                <img src="{{photo}}" class="card-img-top" alt="{{name}} {{lastName}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{name}} {{lastName}}</h5>
+                    <p class="card-text">{{team}}</p>
+                </div>
+            </div>
+
+            {{!-- EQUIVALENCIA CON PARTIALS --}}
+            {{!-- {{>playerCard}} --}}
+
+
+        </div>
+
+        {{/each}}
+
+    </div>
+
+
+    <hr>
+    <a href="/" class="btn btn-dark btn-lg">Ir a inicio</a>
+</div>
